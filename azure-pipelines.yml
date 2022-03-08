@@ -10,5 +10,5 @@ steps:
   displayName: 'Execute Katalon Studio project'
   inputs:
     # version: 8.2.5
-    location: '/var/lib/azureDevops/Katalon_Studio_Windows_64-8.3.0'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -projectPath="D:\katalon-folder\studio-project\ShoppingCart\shopping-cart-tests.prj" -testSuitePath="D:\katalon-folder\studio-project\ShoppingCart\Test Suites" -apiKey=$(katalon_api_key)'
+    location: 'D:\katalon-folder\KRE\Katalon_Studio_Engine_Windows_64-8.3.0'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 projectPath="C:\Users\hieudbui\Katalon Studio\My First Web UI Project\My First Web UI Project.prj" -testSuitePath="Test Suites/TS4" -apiKey=$(katalon_api_key)'
