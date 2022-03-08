@@ -9,6 +9,6 @@ steps:
 - task: katalonTask@1
   displayName: 'Execute Katalon Studio project'
   inputs:
-    version: 8.2.5
-    # location: 'D:\katalon-folder\KRE\Katalon_Studio_Engine_Windows_64-8.3.0'
+    # version: 8.2.5
+    location: '/var/lib/azureDevops/Katalon_Studio_Windows_64-8.3.0'
     executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -projectPath="D:\katalon-folder\studio-project\ShoppingCart\shopping-cart-tests.prj" -testSuitePath="D:\katalon-folder\studio-project\ShoppingCart\Test Suites" -apiKey=$(katalon_api_key)'
