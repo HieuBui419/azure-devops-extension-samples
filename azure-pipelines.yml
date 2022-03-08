@@ -10,4 +10,4 @@ steps:
   displayName: 'Execute Katalon Studio project'
   inputs:
     location: 'D:\katalon-folder\KRE\Katalon_Studio_Engine_Windows_64-8.3.0'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey=$(katalon_api_key)'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -projectPath="D:\katalon-folder\studio-project\ShoppingCart\shopping-cart-tests.prj" -testSuitePath="D:\katalon-folder\studio-project\ShoppingCart\Test Suites" -apiKey=$(katalon_api_key)'
