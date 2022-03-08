@@ -10,5 +10,5 @@ steps:
   displayName: 'Execute Katalon Studio project'
   inputs:
     # version: 8.2.5
-    location: 'D:\katalon-folder\KRE\Katalon_Studio_Engine_Windows_64-8.3.0'
+    location: 'Katalon_Studio_Engine_Windows_64-8.3.0'
     executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey=$(katalon_api_key)'
